@@ -1,0 +1,475 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1640060187052616, "dur":5255, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187057881, "dur":108, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1640060187058062, "dur":41, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1640060187058110, "dur":2337, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1640060187061042, "dur":1754, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187062797, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789075, "dur":518, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789593, "dur":57, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789651, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789659, "dur":26, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789685, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789690, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789704, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789709, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789723, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789728, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789743, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789748, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789762, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789766, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789780, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789784, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789797, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789801, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789815, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789820, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789831, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789834, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789849, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789854, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789872, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789898, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187789903, "dur":5148, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1640060187061725, "dur":1270, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1640060187062995, "dur":10739, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1640060187073735, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1640060187074168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1640060187080730, "dur":15177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1640060187095980, "dur":31509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1640060187127497, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1640060187127637, "dur":286040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1640060187413743, "dur":375663, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1640060187061504, "dur":1418, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1640060187062926, "dur":10491, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1640060187073445, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1640060187073454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1640060187075646, "dur":1114, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1640060187076765, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1640060187076839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1640060187077358, "dur":5980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1640060187083341, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1640060187083555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1640060187084949, "dur":15252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1640060187100265, "dur":926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze.exe" }}
+,{ "pid":12345, "tid":2, "ts":1640060187101195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1640060187101201, "dur":30345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze.exe" }}
+,{ "pid":12345, "tid":2, "ts":1640060187131675, "dur":2259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1640060187133946, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1640060187134147, "dur":20076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1640060187154287, "dur":1766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1640060187156056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1640060187156062, "dur":15901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1640060187172023, "dur":1988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1640060187174022, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1640060187174037, "dur":10849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1640060187184951, "dur":1643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1640060187186601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1640060187186611, "dur":16264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1640060187202940, "dur":1614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1640060187204559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1640060187204569, "dur":14124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1640060187218752, "dur":1154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1640060187219912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1640060187219920, "dur":22683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1640060187242683, "dur":1499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1640060187244188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1640060187244200, "dur":9816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1640060187254096, "dur":2074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1640060187256174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1640060187256182, "dur":11669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1640060187267912, "dur":5191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1640060187273111, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1640060187273121, "dur":23531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1640060187296724, "dur":55523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1640060187352251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1640060187352258, "dur":71571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1640060187423880, "dur":365519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1640060187063192, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1640060187063193, "dur":10401, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1640060187073600, "dur":1369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1640060187074973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1640060187077947, "dur":11950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1640060187090012, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1640060187090394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1640060187090510, "dur":13043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1640060187103674, "dur":1129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1640060187104806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1640060187105964, "dur":37996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1640060187144164, "dur":1049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1640060187145217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1640060187145224, "dur":16397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1640060187161698, "dur":2096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1640060187163806, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1640060187163823, "dur":15694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1640060187179948, "dur":1162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1640060187181117, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1640060187181127, "dur":13081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1640060187194286, "dur":2791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1640060187197085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1640060187197095, "dur":22597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1640060187219769, "dur":1178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1640060187220953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1640060187220959, "dur":27676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1640060187248694, "dur":4518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1640060187253221, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1640060187253233, "dur":11277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1640060187264586, "dur":1630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1640060187266221, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1640060187266231, "dur":11090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1640060187277392, "dur":16990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1640060187294396, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1640060187294409, "dur":34324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1640060187328790, "dur":1046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1640060187329840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1640060187329847, "dur":13907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1640060187343825, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1640060187343898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1640060187343999, "dur":7235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1640060187351300, "dur":1252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1640060187352593, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1640060187352601, "dur":25789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1640060187379295, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1640060187379414, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1640060187379432, "dur":8192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1640060187387694, "dur":401542, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1640060187062571, "dur":529, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1640060187063101, "dur":10469, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1640060187073573, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1640060187073784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1640060187078894, "dur":17660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1640060187096619, "dur":4960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1640060187101583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1640060187101588, "dur":32924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1640060187134581, "dur":1872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1640060187136461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1640060187136471, "dur":17831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1640060187154364, "dur":21659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1640060187176030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1640060187176040, "dur":38741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1640060187214846, "dur":3668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1640060187218521, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1640060187218530, "dur":24497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1640060187243086, "dur":1202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1640060187244293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1640060187244299, "dur":6873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1640060187251230, "dur":1379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1640060187252613, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1640060187252621, "dur":7576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1640060187260388, "dur":3109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1640060187263500, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1640060187263507, "dur":13884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1640060187277452, "dur":3454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1640060187280913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1640060187280921, "dur":12286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1640060187293263, "dur":9440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1640060187302711, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1640060187302723, "dur":14850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1640060187317627, "dur":2480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1640060187320113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1640060187320124, "dur":26006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1640060187346203, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1640060187346285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1640060187346292, "dur":5698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1640060187352048, "dur":544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1640060187352595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1640060187352601, "dur":20849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1640060187373530, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1640060187373603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1640060187373611, "dur":8435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1640060187382102, "dur":407026, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1640060187063277, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1640060187063277, "dur":10227, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1640060187073510, "dur":1341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1640060187074854, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1640060187077832, "dur":16154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1640060187094046, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1640060187094299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1640060187094307, "dur":18285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1640060187112661, "dur":4768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1640060187117434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1640060187118296, "dur":25591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1640060187143973, "dur":1609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1640060187145588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1640060187145597, "dur":14689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1640060187160352, "dur":5624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1640060187165983, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1640060187165995, "dur":16230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1640060187182387, "dur":1563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1640060187183958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1640060187183964, "dur":15379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1640060187199582, "dur":3711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1640060187203300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1640060187203310, "dur":16731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1640060187220095, "dur":1417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1640060187221518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1640060187221526, "dur":21901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1640060187243485, "dur":1946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1640060187245436, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1640060187245445, "dur":10149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1640060187255656, "dur":11138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1640060187266806, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1640060187266894, "dur":16678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1640060187283634, "dur":2395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1640060187286036, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1640060187286045, "dur":11989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1640060187298132, "dur":2011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1640060187300160, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1640060187300187, "dur":8611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1640060187308860, "dur":6015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1640060187314882, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1640060187314893, "dur":13157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1640060187328112, "dur":5643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1640060187333768, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1640060187333785, "dur":41892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1640060187375732, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1640060187375787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1640060187375792, "dur":11738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1640060187387607, "dur":401788, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1640060187061894, "dur":1111, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1640060187063005, "dur":10722, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1640060187073730, "dur":1639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1640060187075375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1640060187077925, "dur":11781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1640060187089775, "dur":1727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1640060187091506, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1640060187091579, "dur":12731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1640060187104366, "dur":1003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1640060187105373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1640060187108269, "dur":36319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1640060187144654, "dur":1156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1640060187145814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1640060187145820, "dur":15516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1640060187161417, "dur":1484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1640060187162906, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1640060187162918, "dur":16662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1640060187179642, "dur":1474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1640060187181120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1640060187181127, "dur":13825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1640060187195015, "dur":3405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1640060187198426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1640060187198437, "dur":21346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1640060187219850, "dur":1104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1640060187220960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1640060187220968, "dur":21657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1640060187242734, "dur":2866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1640060187245604, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1640060187245611, "dur":10138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1640060187255813, "dur":2587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1640060187258406, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1640060187258422, "dur":12910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1640060187271401, "dur":7219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1640060187278624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1640060187278632, "dur":28529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1640060187307235, "dur":3042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1640060187310283, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1640060187310292, "dur":8050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1640060187318402, "dur":124477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1640060187442887, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1640060187442899, "dur":90809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1640060187533757, "dur":255314, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1640060187063111, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1640060187063112, "dur":10378, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1640060187073495, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1640060187073761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1640060187078155, "dur":17555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1640060187095766, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1640060187095996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1640060187096002, "dur":20931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1640060187117006, "dur":2354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1640060187119368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1640060187119378, "dur":24498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1640060187145193, "dur":1080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1640060187146279, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1640060187146321, "dur":14022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1640060187160403, "dur":1205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1640060187161615, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1640060187161630, "dur":13548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1640060187175254, "dur":2530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1640060187177790, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1640060187177800, "dur":35344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1640060187213208, "dur":1454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1640060187214665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1640060187214671, "dur":9581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1640060187224319, "dur":1738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1640060187226061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1640060187226068, "dur":22869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1640060187248997, "dur":1842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1640060187250843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1640060187250851, "dur":7259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1640060187258180, "dur":7137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1640060187265325, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1640060187265336, "dur":18246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1640060187283650, "dur":3282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1640060187286970, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1640060187286978, "dur":18410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1640060187305485, "dur":35998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1640060187341490, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1640060187341500, "dur":38777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1640060187380335, "dur":515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1640060187380853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1640060187380860, "dur":6676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1640060187387605, "dur":401704, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1640060187063600, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1640060187063601, "dur":9917, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1640060187073522, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1640060187073838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1640060187078850, "dur":17139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1640060187096058, "dur":179341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1640060187275407, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1640060187275416, "dur":513454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1640060187788946, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1640060187788949, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1640060187063671, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1640060187063671, "dur":9806, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1640060187073483, "dur":1360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1640060187074847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1640060187077953, "dur":16907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1640060187094928, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1640060187095067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1640060187095075, "dur":17479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1640060187112767, "dur":18774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1640060187131743, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1640060187131756, "dur":22320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1640060187154180, "dur":2641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1640060187156827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1640060187156835, "dur":23536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1640060187180425, "dur":1181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1640060187181610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1640060187181616, "dur":9604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1640060187191289, "dur":1167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1640060187192460, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1640060187192468, "dur":19754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1640060187212291, "dur":1344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1640060187213641, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1640060187213649, "dur":7245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1640060187220961, "dur":6057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1640060187227022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1640060187227030, "dur":16829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1640060187244592, "dur":1387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1640060187245983, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1640060187245993, "dur":10424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1640060187256479, "dur":2898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1640060187259389, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1640060187259407, "dur":17928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1640060187277404, "dur":5601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1640060187283009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1640060187283016, "dur":14134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1640060187297215, "dur":47005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1640060187344224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1640060187344231, "dur":115789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1640060187460084, "dur":329334, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1640060187063776, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1640060187063777, "dur":9684, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1640060187073468, "dur":349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1640060187073820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1640060187078736, "dur":17013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1640060187095837, "dur":4960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1640060187100801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1640060187101236, "dur":23037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1640060187124341, "dur":1279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1640060187125630, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1640060187125646, "dur":28495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1640060187154239, "dur":1755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1640060187156000, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1640060187156010, "dur":13211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1640060187169285, "dur":1651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1640060187170943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1640060187170953, "dur":11638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1640060187182663, "dur":1250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1640060187183919, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1640060187183928, "dur":15340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1640060187199337, "dur":1425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1640060187200769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1640060187200779, "dur":14661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1640060187215501, "dur":1284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1640060187216789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1640060187216796, "dur":7419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1640060187224288, "dur":1269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1640060187225563, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1640060187225573, "dur":22659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1640060187248289, "dur":3324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1640060187251619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1640060187251628, "dur":12205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1640060187263898, "dur":123484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1640060187387389, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1640060187387397, "dur":89957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1640060187477409, "dur":312005, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1640060187063834, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1640060187063835, "dur":9610, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1640060187073452, "dur":1416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1640060187074872, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1640060187077570, "dur":13057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1640060187090702, "dur":1385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1640060187092092, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1640060187092101, "dur":11396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1640060187103567, "dur":2228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1640060187105800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1640060187106708, "dur":34640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1640060187141450, "dur":1428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1640060187142882, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1640060187142891, "dur":11384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1640060187154329, "dur":2234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1640060187156569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1640060187156578, "dur":13535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1640060187170178, "dur":4321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1640060187174508, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1640060187174523, "dur":12263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1640060187186859, "dur":1666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1640060187188533, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1640060187188544, "dur":17645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1640060187206253, "dur":1387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1640060187207648, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1640060187207660, "dur":12961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1640060187220678, "dur":1416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1640060187222100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1640060187222109, "dur":22332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1640060187244509, "dur":1537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1640060187246051, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1640060187246060, "dur":9530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1640060187255655, "dur":7221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1640060187262882, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1640060187262890, "dur":14807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1640060187277748, "dur":4777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1640060187282530, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1640060187282537, "dur":28485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1640060187311084, "dur":11429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":11, "ts":1640060187322520, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1640060187322529, "dur":25328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":11, "ts":1640060187347927, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1640060187348006, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1640060187348015, "dur":32636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1640060187380704, "dur":408364, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1640060187063921, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1640060187063921, "dur":9687, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1640060187073612, "dur":434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1640060187074052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1640060187079904, "dur":23136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1640060187103162, "dur":513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1640060187103678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1640060187103962, "dur":26962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1640060187131052, "dur":1611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1640060187132671, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1640060187132682, "dur":16544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1640060187149328, "dur":1848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1640060187151183, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1640060187151194, "dur":21765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1640060187173218, "dur":1442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1640060187174667, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1640060187174677, "dur":13995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1640060187188744, "dur":1384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1640060187190135, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1640060187190173, "dur":22211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1640060187212452, "dur":1417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1640060187213873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1640060187213879, "dur":11569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1640060187225503, "dur":50240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1640060187275750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1640060187275759, "dur":98255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1640060187374076, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Nolette3DMaze/3DMaze_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1640060187374139, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1640060187374146, "dur":12083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Nolette3DMaze/3DMaze_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1640060187386306, "dur":402990, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1640060187799286, "dur":2395, "ph":"X", "name": "ProfilerWriteOutput" }
+,
